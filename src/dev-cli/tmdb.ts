@@ -27,7 +27,7 @@ export async function makeTMDBRequest(url: string, appendToResponse?: string): P
   }
 
   // Route TMDB requests through the user's proxy
-  const proxyBaseUrl = process.env.MOVIE_WEB_PROXY_URL || 'https://simple-proxy-v1.swasthikshetty101.workers.dev';
+  const proxyBaseUrl = process.env.MOVIE_WEB_PROXY_URL || 'https://proxy.swasthikshetty101.workers.dev/';
   const proxyUrl = `${proxyBaseUrl}/?destination=${encodeURIComponent(requestURL.toString())}`;
   return fetch(proxyUrl, {
     method: 'GET',

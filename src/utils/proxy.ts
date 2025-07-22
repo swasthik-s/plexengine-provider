@@ -2,10 +2,10 @@ import { flags } from '@/entrypoint/utils/targets';
 import { Stream } from '@/providers/streams';
 
 // Default proxy URL for general purpose proxying
-const DEFAULT_PROXY_URL = process.env.MOVIE_WEB_PROXY_URL || 'https://simple-proxy-v1.swasthikshetty101.workers.dev/';
+const DEFAULT_PROXY_URL = process.env.MOVIE_WEB_PROXY_URL || 'https://proxy.swasthikshetty101.workers.dev/';
 // Default M3U8 proxy URL for HLS stream proxying - use the same proxy for both
 let CONFIGURED_M3U8_PROXY_URL = (
-  process.env.MOVIE_WEB_PROXY_URL || 'https://simple-proxy-v1.swasthikshetty101.workers.dev'
+  process.env.MOVIE_WEB_PROXY_URL || 'https://proxy.swasthikshetty101.workers.dev/'
 ).replace(/\/$/, '');
 
 /**

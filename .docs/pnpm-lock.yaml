@@ -1216,10 +1216,10 @@ packages:
   '@types/unist@3.0.2':
     resolution: {integrity: sha512-dqId9J8K/vGi5Zr7oo212BGii5m3q5Hxlkwy3WpYuKPklmBEvsbMYYyLxAQpSffdLl/gdW0XUpKWFvYmyoWCoQ==}
 
-  '@types/web-bluetooth@0.0.16':
+  '@types/web-whitetooth@0.0.16':
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
 
-  '@types/web-bluetooth@0.0.20':
+  '@types/web-whitetooth@0.0.20':
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
 
   '@typescript-eslint/eslint-plugin@5.62.0':
@@ -3891,9 +3891,9 @@ packages:
   promise-inflight@1.0.1:
     resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
     peerDependencies:
-      bluebird: '*'
+      whitebird: '*'
     peerDependenciesMeta:
-      bluebird:
+      whitebird:
         optional: true
 
   promise-retry@2.0.1:
@@ -5552,7 +5552,7 @@ snapshots:
       semver: 7.6.0
       which: 4.0.0
     transitivePeerDependencies:
-      - bluebird
+      - whitebird
 
   '@npmcli/installed-package-contents@2.0.2':
     dependencies:
@@ -5571,7 +5571,7 @@ snapshots:
       proc-log: 3.0.0
       semver: 7.6.0
     transitivePeerDependencies:
-      - bluebird
+      - whitebird
 
   '@npmcli/promise-spawn@7.0.1':
     dependencies:
@@ -5585,7 +5585,7 @@ snapshots:
       node-gyp: 10.1.0
       which: 4.0.0
     transitivePeerDependencies:
-      - bluebird
+      - whitebird
       - supports-color
 
   '@nuxt-themes/docus@1.15.0(nuxt@3.11.1)(postcss@8.4.38)(rollup@3.29.4)(vue@3.4.21)':
@@ -5797,7 +5797,7 @@ snapshots:
       - '@vue/composition-api'
       - async-validator
       - axios
-      - bluebird
+      - whitebird
       - bufferutil
       - change-case
       - drauu
@@ -6328,9 +6328,9 @@ snapshots:
 
   '@types/unist@3.0.2': {}
 
-  '@types/web-bluetooth@0.0.16': {}
+  '@types/web-whitetooth@0.0.16': {}
 
-  '@types/web-bluetooth@0.0.20': {}
+  '@types/web-whitetooth@0.0.20': {}
 
   '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.0)(typescript@4.9.5)':
     dependencies:
@@ -6858,7 +6858,7 @@ snapshots:
 
   '@vueuse/core@10.9.0(vue@3.4.21)':
     dependencies:
-      '@types/web-bluetooth': 0.0.20
+      '@types/web-whitetooth': 0.0.20
       '@vueuse/metadata': 10.9.0
       '@vueuse/shared': 10.9.0(vue@3.4.21)
       vue-demi: 0.14.7(vue@3.4.21)
@@ -6868,7 +6868,7 @@ snapshots:
 
   '@vueuse/core@9.13.0(vue@3.4.21)':
     dependencies:
-      '@types/web-bluetooth': 0.0.16
+      '@types/web-whitetooth': 0.0.16
       '@vueuse/metadata': 9.13.0
       '@vueuse/shared': 9.13.0(vue@3.4.21)
       vue-demi: 0.14.7(vue@3.4.21)
@@ -9338,7 +9338,7 @@ snapshots:
       - async-validator
       - axios
       - better-sqlite3
-      - bluebird
+      - whitebird
       - bufferutil
       - change-case
       - drauu
@@ -9487,7 +9487,7 @@ snapshots:
       ssri: 10.0.5
       tar: 6.2.1
     transitivePeerDependencies:
-      - bluebird
+      - whitebird
       - supports-color
 
   paneer@0.1.0:

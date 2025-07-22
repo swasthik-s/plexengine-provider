@@ -80,7 +80,7 @@ export async function processOptions(sources: Array<Embed | Sourcerer>, options:
   }
 
   // Create a proxied fetcher using the Cloudflare proxy
-  const proxyUrl = 'https://simple-proxy-v1.swasthikshetty101.workers.dev/';
+  const proxyUrl = 'https://proxy.swasthikshetty101.workers.dev/';
   const proxiedFetcher =
     options.fetcher === 'native'
       ? makeSimpleProxyFetcher(proxyUrl, fetch)
